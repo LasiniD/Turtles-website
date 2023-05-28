@@ -241,7 +241,7 @@ tr:hover{
     .gallery img{width: 100%; display: flex; flex-direction: row;}
     #gallery{display: grid; grid-template-columns: 50% 50%; justify-items: center; width: 100%; height: fit-content;}
     #form{padding: 5%;}
-    table{ width:80%;}
+    table{ width:60%;}
 }
 
 #gototop{   /*Animation for go to top button*/
