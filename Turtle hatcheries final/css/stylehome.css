@@ -236,11 +236,13 @@ tr:hover{
     opacity: 0.6;
 }
 @media screen and (max-width:1000px){
-    body article div{margin-left:5%; margin-right:5%;}
     .gallery{ width: 80%; height: 80%;}
     .gallery img{width: 100%; display: flex; flex-direction: row;}
     #gallery{display: grid; grid-template-columns: 50% 50%; justify-items: center; width: 100%; height: fit-content;}
     #form{padding: 5%;}
+}
+@media screen and (max-width:400px){
+    body article div{ margin-left:7%; margin-right:7%;}
 }
 
 #gototop{   /*Animation for go to top button*/
